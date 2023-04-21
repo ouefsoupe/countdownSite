@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Summer Countdown!! </title>
+    <link rel = "stylesheet" href = "src/main.css">
+</head>
+<body>
+    <br>
+    <!-- James PAWS :) -->
+    <center>
+        <marquee  behavior="alternate" direction="left">   
+            <img src= "IMG_0956.jpg"  style="width: 500px;height: 500px;" ></img>
+        </marquee>
+    </center>
+
+<center>
+    <div class = "until" id = "myCountdown"> 
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--days">00</div>
+            <div class = "until__unit">Days</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--hours">00</div>
+            <div class = "until__unit">Hours</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--minutes">00</div>
+            <div class = "until__unit">Minutes</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--seconds">00</div>
+            <div class = "until__unit">Seconds</div>
+        </div>
+        <div class = "until__event">enter date</div>
+    </div>
+</center>
+  <!-- Progress Bar -->
+  <br>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/plugin/duration.min.js"></script>
+    <script src = "src/main.js"></script>
+</body>
+</html>
