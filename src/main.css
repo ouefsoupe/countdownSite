@@ -10,9 +10,26 @@
     box-shadow: 0 0 5px rgba(0,0,0,.3); 
     color: #333;
     font-family: sans-serif;
+}
+
+.until__past {
+  font-family: sans-serif;
+  /* font-size: 10px; */
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 
 }
 
+.until__cube {
+  color: #ffffff;
+  padding: .5em 0;
+  font-size: 1em; 
+  font-weight: bold;
+  text-align: center;
+
+}
 .until__component{
     text-align: center;
     background: #ffff;
@@ -34,6 +51,12 @@
 }
 
 .until__event {
+    grid-column: span 4;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+}
+.until__past {
     grid-column: span 4;
     text-align: center;
     color: #ffff;
