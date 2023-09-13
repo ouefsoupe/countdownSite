@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Summer Countdown!! </title>
+    <link rel = "stylesheet" href = "src/main.css">
+</head>
+<body>
+    <br>
+    <!-- James PAWS :) -->
+    <center>
+        <marquee  behavior="alternate" direction="left">   
+            <img src= "IMG_0956.jpg"  style="width: 400px;height: 400px;" ></img>
+        </marquee>
+
+        <!-- <button id="myBtn">Open Form</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <center><p>Enter your prefered end date</p></center>
+            <form>
+                <label for="date">Date(YYYY-M-D):</label><br>
+                <input type="text" id="date" name="date"><br>
+            </form>
+        </div>
+    </div>
+    </center>
+    <br><br>
+<!-- Below is the countdown timer, displayed on the website as 4 boxes count days and suchs-->
+<center>
+    <div class = "until" id = "myCountdown"> 
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--days">00</div>
+            <div class = "until__unit">Days</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--hours">00</div>
+            <div class = "until__unit">Hours</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--minutes">00</div>
+            <div class = "until__unit">Minutes</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--seconds">00</div>
+            <div class = "until__unit">Seconds</div>
+        </div>
+        <div class = "until__event">enter date</div>
+        <!-- days past -->
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--dayz">00</div>
+            <div class = "until__unit">Days</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--hourz">00</div>
+            <div class = "until__unit">Hours</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--minutez">00</div>
+            <div class = "until__unit">minutes</div>
+        </div>
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--secondz">00</div>
+            <div class = "until__unit">seconds</div>
+        </div>
+        <div class = "until__past"> Days have past!! </div>
+
+    </div>
+</center>
+<!-- Progress Bar -->
+<br>
+<div id="myProgress">
+    <div id="myBar"></div>
+</div>
+<!-- percentage brint -->
+<div class = "until" id = "perBar"> 
+    <div class = "until__component">
+        <div class = "until__numeric until__numeric--percent">00</div> 
+    </div>
+<br>
+<!-- The counter for the number of days that have pased since the inputed start date -->
+<center>
+    <!-- <div class = "until" id = "myCountdown">
+        <div class = "until__component">
+            <div class = "until__numeric until__numeric--days">00</div>
+            <div class = "until__unit">Days</div>
+        </div>
+    </div> -->
+
+    <!-- <div class = "until" id = "myCountdown">
+        <div class = "until__past">
+            <div class = "until__past until__past--days"> 00 </div>
+            <div> Days Past! </div>
+        </div>
+    </div> -->
+</center>
+    
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/plugin/duration.min.js"></script>
+    <script src = "src/main.js"></script>
+</body>
+</html>

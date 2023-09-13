@@ -1,0 +1,133 @@
+.until {
+    margin: 25 px;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    padding: 1em;
+    background: #eb8a4a;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3); 
+    color: #333;
+    font-family: sans-serif;
+}
+
+.until__past {
+  font-family: sans-serif;
+  /* font-size: 10px; */
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.until__cube {
+  color: #ffffff;
+  padding: .5em 0;
+  font-size: 1em; 
+  font-weight: bold;
+  text-align: center;
+
+}
+.until__component{
+    text-align: center;
+    background: #ffff;
+    border-radius: 5px;
+}
+
+.until__numeric{
+    color: #333333;
+    padding: .5em 0;
+    font-size: 3em; 
+    font-weight: bold;
+}
+
+.until__unit {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: #eb8a4a;
+}
+
+.until__event {
+    grid-column: span 4;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+}
+.until__past {
+    grid-column: span 4;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 5%;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    height: 30px;
+  }
+  
+  #myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #eb8a4a;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+/* MODULE STUFF?? SUBJECT TO CHANGE */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
